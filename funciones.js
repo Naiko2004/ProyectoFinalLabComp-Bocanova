@@ -15,7 +15,7 @@ function buscarInfo(){
             mensaje = "Se atiende por orden de llegada, sin turno y se entrega en el momento";
             break;
         case "prof":
-            mensaje = "En la clinica trabajan: Dra. Anabella Rossi (endodoncista), Dra. Luciana Romero (odontopediatra), Dra. Jannet Cubas (protesista) y Dr. Rechia Jorge (cirujano)";
+            mensaje = "En la clínica trabajan: Dra. Anabella Rossi (endodoncista), Dra. Luciana Romero (odontopediatra), Dra. Jannet Cubas (protesista) y Dr. Rechia Jorge (cirujano)";
             break;
         default:
             mensaje = "Error";
@@ -165,10 +165,10 @@ if(alertar){
         mensaje = mensaje + "señora "
     }
     
-    mensaje = mensaje + nombre + ", mediante nuestro mail de contacto bocanova@gmail.com a su mail " + mail;
+    mensaje = mensaje + nombre + ", mediante nuestro correo electrónico de contacto bocanova@gmail.com, a su dirección de correo electrónico " + mail;
     
     if(telefono){
-        mensaje = mensaje + " o a su telefono " + tel + " mediante nuestro telefono 351 111-2222."
+        mensaje = mensaje + " o a su teléfono " + tel + " mediante nuestro núero de teléfono 351 111-2222."
     }else{
         mensaje = mensaje + ".";
     }
